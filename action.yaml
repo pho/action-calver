@@ -19,7 +19,7 @@ outputs:
   package_suffix:
     description: 'If the action is triggered on a non-default branch its assumed to be a prerelease and the suffix will be the branch name. Otherwise it will be an empty string.'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: bookmark
